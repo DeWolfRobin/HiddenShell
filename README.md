@@ -7,5 +7,5 @@ I want it to be able to be tossed in a network and work XD
 I am using a Raspberry pi zero W and the goal of this app is to make it accessible outside the ssh env.
 I also want it to be very stealthy, hence the funny looking front-end.
 
-#features for now
+# features for now
  - Terminal (Linux and Windows compatible)
