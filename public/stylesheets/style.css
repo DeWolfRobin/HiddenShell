@@ -2,20 +2,22 @@ html {
   position: relative;
   min-height: 100%;
 }
+
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   width: 100%;
   /* overflow-x: hidden; */
 }
 
-.left{
+.left {
   float: left;
 }
-.right{
+
+.right {
   float: right;
 }
 
-.center{
+.center {
   text-align: center;
 }
 

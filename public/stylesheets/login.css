@@ -1,0 +1,131 @@
+body {
+  font-family: Arial, sans-serief;
+  background-color: #E5E5E5;
+  margin: 0px;
+  padding: 0px;
+}
+
+.banner {
+  margin: 0;
+  background: url("/assets/top_bg.jpg");
+  font-family: Arial, sans-serief;
+  padding: 0px;
+}
+
+.loginBox {
+  display: block;
+  position: relative;
+  margin-top: 10%;
+  text-align: center;
+  background-color: white;
+  border-radius: 5px;
+  border: solid 1px #ccc;
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.noteDiv {
+  color: gray;
+  font-family: Arial;
+  width: 395px;
+  text-align: left;
+  margin: 0px auto;
+  font-size: 14px;
+}
+
+#note {
+  display: inline-block;
+  vertical-align: top;
+  _display: inline;
+  _zoom: 1;
+  width: 100px;
+  font-weight: bold;
+}
+
+#tip {
+  display: inline-block;
+  vertical-align: top;
+  _display: inline;
+  _zoom: 1;
+  width: 290px;
+  font-weight: bold;
+}
+
+#copyright {
+  -webkit-text-size-adjust: none;
+  font-size: 8px;
+  color: #6a6969;
+  font-family: "Verdana";
+  font-weight: normal;
+  margin-top: 40px;
+  display: inline-block;
+  padding-bottom: 20px;
+}
+
+.topLogo {
+  height: 90px;
+}
+
+.style1 {
+  font-family: "Arial";
+  color: #FFFFFF;
+  font-size: 16px;
+  padding-right: 50px;
+  text-align: right;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.style2 {
+  font-size: 12px;
+  font-family: "Arial";
+  font-weight: bold;
+  padding-right: 50px;
+  text-align: right;
+  white-space: nowrap;
+  color: #FFFFFF;
+}
+
+ul {
+  padding: 60px 0px 0px 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+ul li {
+  height: 34px;
+  width: 222px;
+}
+
+li.blank {
+  height: 15px;
+}
+
+input.text {
+  height: 26px;
+  line-height: 26px;
+  width: 175px;
+  padding: 0px;
+  font-size: 14px;
+  color: #6a6969;
+  font-family: "Verdana", "Arial";
+  font-weight: normal;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+}
+
+input[type='submit'] {
+  border-radius: 5px;
+  margin-top: 15px;
+  background-image: url('/assets/button.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-style: none;
+  width: 113px;
+  height: 34px;
+}
+
+input[type='submit']:hover {
+  cursor: pointer;
+}
