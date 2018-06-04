@@ -15,3 +15,5 @@ I also want it to be very stealthy, hence the funny looking front-end.
  1. cd HiddenShell
  1. npm install
  1. npm start
+
+ password: admin:admin
