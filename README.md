@@ -11,7 +11,7 @@ I also want it to be very stealthy, hence the funny looking front-end.
  - Terminal (Linux and Windows compatible)
 
 # Installation
-`git clone https://github.com/DeWolfRobin/HiddenShell.git`
-`cd HiddenShell`
-`npm install`
-`npm start`
+ 1. git clone https://github.com/DeWolfRobin/HiddenShell.git
+ 1. cd HiddenShell
+ 1. npm install
+ 1. npm start
