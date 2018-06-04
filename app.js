@@ -9,6 +9,7 @@ var session = require('express-session');
 var index = require('./routes/index');
 var login = require('./routes/login');
 var home = require('./routes/home');
+var terminal = require('./routes/terminal');
 
 var app = express();
 app.use(session({
@@ -45,6 +46,7 @@ app.use((req, res, next) => {
 });
 
 app.use('/home', home);
+app.use('/terminal', terminal);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

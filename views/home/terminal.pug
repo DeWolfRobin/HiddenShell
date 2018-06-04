@@ -1,0 +1,7 @@
+extends ../template/layout
+
+block content
+  pre #{output}
+  form(method='post')
+    input(type='text', name='cmd')
+    input(type='submit')
