@@ -1,0 +1,14 @@
+doctype html
+html
+  head
+    title #{title}
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    //link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css", integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm", crossorigin="anonymous")
+    link(rel="stylesheet", href="/CDN/bootstrap.min.css")
+    script(src="/CDN/jquery-3.3.1.js")
+  body
+    include includes/nav.pug
+    .body
+      block content
+  footer
+    include includes/footer.pug

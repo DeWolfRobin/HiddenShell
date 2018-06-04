@@ -1,0 +1,8 @@
+block content
+  h1(style='color:red;') An error occured!
+  if !isNaN(error.status)
+    h2= error.status + " - " + message
+    a(href='/') go back to the home page!
+  else
+    h2 Something went wrong please go back to 
+      a(href='/') the home page
